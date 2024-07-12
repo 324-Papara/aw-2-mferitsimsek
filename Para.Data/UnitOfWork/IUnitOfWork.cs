@@ -1,4 +1,4 @@
-using Para.Data.Domain;
+using Para.Core.Domain;
 using Para.Data.GenericRepository;
 
 namespace Para.Data.UnitOfWork;

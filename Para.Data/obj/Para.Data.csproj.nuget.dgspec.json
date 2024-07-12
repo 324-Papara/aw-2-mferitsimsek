@@ -64,6 +64,144 @@
         }
       }
     },
+    "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Para.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Para.Business.csproj",
+        "projectName": "Para.Business",
+        "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Para.Business.csproj",
+        "packagesPath": "C:\\Users\\KAPTAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KAPTAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Para.Core.csproj": {
+                "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Para.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Para.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Para.Core.csproj",
+        "projectName": "Para.Core",
+        "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Para.Core.csproj",
+        "packagesPath": "C:\\Users\\KAPTAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KAPTAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Base\\Para.Base.csproj": {
+                "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Base\\Para.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Para.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -90,6 +228,9 @@
             "projectReferences": {
               "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Base\\Para.Base.csproj": {
                 "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Base\\Para.Base.csproj"
+              },
+              "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Para.Business.csproj": {
+                "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Para.Business.csproj"
               }
             }
           }

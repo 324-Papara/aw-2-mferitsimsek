@@ -1,7 +1,76 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|solutionrelative:para.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\validatiors\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\validatiors\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\validatiors\\customerdetailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\validatiors\\customerdetailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\validatiors\\customeraddressvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\validatiors\\customeraddressvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\mappings\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\mappings\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\dtos\\customeraddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\dtos\\customeraddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|solutionrelative:para.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\context\\parapostgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\context\\parapostgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\configuration\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\configuration\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.business\\validatiors\\customerphonevalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AC6437-211F-4872-B11F-449C299ED79D}|Para.Business\\Para.Business.csproj|solutionrelative:para.business\\validatiors\\customerphonevalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0124036E-9391-4900-A2E5-8199229564FB}|Para.Core\\Para.Core.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.core\\domain\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0124036E-9391-4900-A2E5-8199229564FB}|Para.Core\\Para.Core.csproj|solutionrelative:para.core\\domain\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.data\\configuration\\customerphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08994B8D-655B-4BE9-87ED-A4EFDB41A217}|Para.Data\\Para.Data.csproj|solutionrelative:para.data\\configuration\\customerphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +135,227 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "Para.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Startup.cs",
+              "RelativeToolTip": "Para.Api\\Startup.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:40:18.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Dtos\\CustomerDetailDto.cs",
+              "RelativeDocumentMoniker": "Para.Business\\Dtos\\CustomerDetailDto.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Dtos\\CustomerDetailDto.cs",
+              "RelativeToolTip": "Para.Business\\Dtos\\CustomerDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:39:35.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerAddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Dtos\\CustomerAddressDto.cs",
+              "RelativeDocumentMoniker": "Para.Business\\Dtos\\CustomerAddressDto.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Dtos\\CustomerAddressDto.cs",
+              "RelativeToolTip": "Para.Business\\Dtos\\CustomerAddressDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:39:34.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParaPostgreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Context\\ParaPostgreDbContext.cs",
+              "RelativeDocumentMoniker": "Para.Data\\Context\\ParaPostgreDbContext.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Context\\ParaPostgreDbContext.cs",
+              "RelativeToolTip": "Para.Data\\Context\\ParaPostgreDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:37:15.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Configuration\\Customer.cs",
+              "RelativeDocumentMoniker": "Para.Data\\Configuration\\Customer.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Configuration\\Customer.cs",
+              "RelativeToolTip": "Para.Data\\Configuration\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:37:13.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerAddressValidator .cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerAddressValidator .cs",
+              "RelativeDocumentMoniker": "Para.Business\\Validatiors\\CustomerAddressValidator .cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerAddressValidator .cs",
+              "RelativeToolTip": "Para.Business\\Validatiors\\CustomerAddressValidator .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:37:01.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Mappings\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "Para.Business\\Mappings\\CustomerProfile.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Mappings\\CustomerProfile.cs",
+              "RelativeToolTip": "Para.Business\\Mappings\\CustomerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:36:54.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerAddress.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Domain\\CustomerAddress.cs",
+              "RelativeDocumentMoniker": "Para.Core\\Domain\\CustomerAddress.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Core\\Domain\\CustomerAddress.cs",
+              "RelativeToolTip": "Para.Core\\Domain\\CustomerAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:33:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\GenericRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Para.Data\\GenericRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\GenericRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "Para.Data\\GenericRepository\\IGenericRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIAywBcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:26:54.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Para.Data\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "Para.Data\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAiwD8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:26:43.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Para.Data\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Para.Data\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAhwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:13:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Para.Data\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Para.Data\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:26:40.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerPhone.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Configuration\\CustomerPhone.cs",
+              "RelativeDocumentMoniker": "Para.Data\\Configuration\\CustomerPhone.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Data\\Configuration\\CustomerPhone.cs",
+              "RelativeToolTip": "Para.Data\\Configuration\\CustomerPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:23:23.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetailValidator.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerDetailValidator.cs",
+              "RelativeDocumentMoniker": "Para.Business\\Validatiors\\CustomerDetailValidator.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerDetailValidator.cs",
+              "RelativeToolTip": "Para.Business\\Validatiors\\CustomerDetailValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:13:52.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerPhoneValidator .cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerPhoneValidator .cs",
+              "RelativeDocumentMoniker": "Para.Business\\Validatiors\\CustomerPhoneValidator .cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerPhoneValidator .cs",
+              "RelativeToolTip": "Para.Business\\Validatiors\\CustomerPhoneValidator .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:13:51.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerValidator.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerValidator.cs",
+              "RelativeDocumentMoniker": "Para.Business\\Validatiors\\CustomerValidator.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Business\\Validatiors\\CustomerValidator.cs",
+              "RelativeToolTip": "Para.Business\\Validatiors\\CustomerValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:13:46.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Para.Api\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Para.Api\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAlwDoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T23:03:10.949Z",
+              "EditorCaption": ""
             }
           ]
         },

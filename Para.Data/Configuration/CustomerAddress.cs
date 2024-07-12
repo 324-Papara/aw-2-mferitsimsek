@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Para.Data.Domain;
+using Para.Core.Domain;
 
 namespace Para.Data.Configuration;
 

@@ -25,7 +25,7 @@ namespace Para.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Para.Data.Domain.Customer", b =>
+            modelBuilder.Entity("Para.Core.Domain.Customer", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -84,7 +84,7 @@ namespace Para.Data.Migrations
                     b.ToTable("Customer", "dbo");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerAddress", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerAddress", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -135,7 +135,7 @@ namespace Para.Data.Migrations
                     b.ToTable("CustomerAddress", "dbo");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerDetail", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerDetail", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -190,7 +190,7 @@ namespace Para.Data.Migrations
                     b.ToTable("CustomerDetail", "dbo");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerPhone", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerPhone", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -235,9 +235,9 @@ namespace Para.Data.Migrations
                     b.ToTable("CustomerPhone", "dbo");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerAddress", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerAddress", b =>
                 {
-                    b.HasOne("Para.Data.Domain.Customer", "Customer")
+                    b.HasOne("Para.Core.Domain.Customer", "Customer")
                         .WithMany("CustomerAddresses")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -246,20 +246,20 @@ namespace Para.Data.Migrations
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerDetail", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerDetail", b =>
                 {
-                    b.HasOne("Para.Data.Domain.Customer", "Customer")
+                    b.HasOne("Para.Core.Domain.Customer", "Customer")
                         .WithOne("CustomerDetail")
-                        .HasForeignKey("Para.Data.Domain.CustomerDetail", "CustomerId")
+                        .HasForeignKey("Para.Core.Domain.CustomerDetail", "CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.CustomerPhone", b =>
+            modelBuilder.Entity("Para.Core.Domain.CustomerPhone", b =>
                 {
-                    b.HasOne("Para.Data.Domain.Customer", "Customer")
+                    b.HasOne("Para.Core.Domain.Customer", "Customer")
                         .WithMany("CustomerPhones")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -268,7 +268,7 @@ namespace Para.Data.Migrations
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("Para.Data.Domain.Customer", b =>
+            modelBuilder.Entity("Para.Core.Domain.Customer", b =>
                 {
                     b.Navigation("CustomerAddresses");
 

@@ -1,6 +1,9 @@
 using System.Text.Json.Serialization;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Para.Business.Mappings;
+using Para.Business.Validatiors;
 using Para.Data.Context;
 using Para.Data.UnitOfWork;
 
@@ -14,11 +17,11 @@ public class Startup
     {
         this.Configuration = configuration;
     }
-    
-    
+
+    [Obsolete]
     public void ConfigureServices(IServiceCollection services)
     {
-               
+
         services.AddControllers().AddJsonOptions(options =>
         {
             options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
@@ -32,11 +35,25 @@ public class Startup
 
         var connectionStringSql = Configuration.GetConnectionString("MsSqlConnection");
         services.AddDbContext<ParaSqlDbContext>(options => options.UseSqlServer(connectionStringSql));
-        
+
         var connectionStringPostgre = Configuration.GetConnectionString("PostgresSqlConnection");
         services.AddDbContext<ParaPostgreDbContext>(options => options.UseNpgsql(connectionStringPostgre));
 
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+        // Validasyon tanýmlamalarý konfigrasyonu.
+        services.AddFluentValidation(opt =>
+        {
+            opt.RegisterValidatorsFromAssemblyContaining<CustomerValidator>();
+            opt.RegisterValidatorsFromAssemblyContaining<CustomerDetailValidator>();
+            opt.RegisterValidatorsFromAssemblyContaining<CustomerAddressValidator>();
+            opt.RegisterValidatorsFromAssemblyContaining<CustomerPhoneValidator>();
+        });
+        //Dto entity dönüþümü için automapper konfigrasyonu.
+        services.AddAutoMapper(opt =>
+        {
+            opt.AddProfile<CustomerProfile>();
+        });
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Para.Data.Domain;
+using Para.Core.Domain;
 using Para.Data.UnitOfWork;
 
 namespace Para.Api.Controllers
@@ -17,10 +17,10 @@ namespace Para.Api.Controllers
 
 
         [HttpGet]
-        public async Task<List<Customer>> Get()
+        public async Task<List<Customer>> GetAll()
         {
-            var entityList = await unitOfWork.CustomerRepository.GetAll();
-            return entityList;
+            var customers = await unitOfWork.CustomerRepository.GetAll();
+            return customers;
         }
 
         [HttpGet("{customerId}")]

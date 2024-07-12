@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Para.Data.Configuration;
-using Para.Data.Domain;
+using Para.Core.Domain;
 
 namespace Para.Data.Context;
 

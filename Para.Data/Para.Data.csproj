@@ -7,6 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="Domain\**" />
+      <EmbeddedResource Remove="Domain\**" />
+      <None Remove="Domain\**" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
@@ -20,6 +26,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Para.Base\Para.Base.csproj" />
+      <ProjectReference Include="..\Para.Business\Para.Business.csproj" />
     </ItemGroup>
 
     <ItemGroup>
