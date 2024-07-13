@@ -38,6 +38,11 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
         dbContext.Set<TEntity>().Update(entity);
     }
 
+    public async Task<IQueryable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate)
+    {
+        return dbContext.Set<TEntity>().Where(predicate);
+    }
+
     public async Task Delete(TEntity entity)
     {
         dbContext.Set<TEntity>().Remove(entity);

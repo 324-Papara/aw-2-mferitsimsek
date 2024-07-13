@@ -12,6 +12,8 @@ public interface IGenericRepository<TEntity> where TEntity : class
     Task Delete(long Id);
     Task<List<TEntity>> GetAll();
 
+    Task<IQueryable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate);
+
     // Sorgulanabilir bir IQueryable döndürür.
     Task<IQueryable<TEntity>> GetQueryable();
 

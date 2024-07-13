@@ -14,6 +14,7 @@ namespace Para.Business.Mappings
         public CustomerProfile()
         {
             CreateMap<Customer, CustomerDto>().ReverseMap();
+            CreateMap<Customer, CustomerSearchParams>().ReverseMap();
             CreateMap<CustomerDetail, CustomerDetailDto>().ReverseMap();
             CreateMap<CustomerAddress, CustomerAddressDto>().ReverseMap();
             CreateMap<CustomerPhone, CustomerPhoneDto>().ReverseMap();

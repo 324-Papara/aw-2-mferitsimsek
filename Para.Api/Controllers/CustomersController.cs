@@ -88,7 +88,7 @@ namespace Para.Api.Controllers
             }
         }
 
-        [HttpGet()]
+        [HttpGet]
         public async Task<IActionResult> SearchCustomers(string propertyName, string comparison, string value)
         {
             try
@@ -119,6 +119,54 @@ namespace Para.Api.Controllers
         }
 
         [HttpPost]
+        public async Task<IActionResult> SearchCustomer([FromBody]CustomerSearchParams searchParams)
+        {
+            try
+            {
+                var customerQuery = await _unitOfWork.CustomerRepository.Where(c => true); // Baþlangýçta tüm müþteriler
+
+                if (!string.IsNullOrWhiteSpace(searchParams.FirstName))
+                {
+                    customerQuery = customerQuery.Where(c => c.FirstName.Contains(searchParams.FirstName));
+                }
+                if (!string.IsNullOrWhiteSpace(searchParams.LastName))
+                {
+                    customerQuery = customerQuery.Where(c => c.LastName == searchParams.LastName);
+                }
+                if (!string.IsNullOrWhiteSpace(searchParams.Email))
+                {
+                    customerQuery = customerQuery.Where(c => c.Email.Contains(searchParams.Email));
+                }
+
+                if (searchParams.IsActive)
+                {
+                    customerQuery = customerQuery.Where(c => c.IsActive == searchParams.IsActive);
+                }
+                // Diðer arama kriterleri buraya eklenebilir ve daha dinamik hale getirilebilir
+
+                var customers = await customerQuery
+                    .Include(c => c.CustomerAddresses)
+                    .Include(c => c.CustomerPhones)
+                    .Include(c => c.CustomerDetail)
+                    .ToListAsync();
+
+                if (!customers.Any())
+                {
+                    _logger.LogInformation("Arama kriterlerine uygun müþteri bulunamadý.");
+                    return NotFound(new { Message = "Arama kriterlerine uygun müþteri bulunamadý." });
+                }
+
+                _logger.LogInformation("Müþteriler baþarýyla arandý ve getirildi. Bulunan müþteri sayýsý: {Count}", customers.Count);
+                return Ok(customers);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Müþteri arama iþlemi sýrasýnda bir hata oluþtu.");
+                return StatusCode(500, new { Message = "Müþteri arama iþlemi sýrasýnda bir hata oluþtu" });
+            }
+        }
+
+       [HttpPost]
         public async Task<IActionResult> Post([FromBody] CustomerDto customerDto)
         {
             try
