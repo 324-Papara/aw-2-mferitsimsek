@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|c:\\users\\kaptan\\source\\repos\\mferitsimsek\\paparabootcampclassroom\\week2\\para.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8129F5D-96F8-48D8-949D-FBEA60C0374D}|Para.Api\\Para.Api.csproj|solutionrelative:para.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,19 +66,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Para.Api\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\KAPTAN\\source\\repos\\mferitsimsek\\PaparaBootcampClassRoom\\week2\\Para.Api\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "Para.Api\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wBgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T23:03:10.949Z",
-              "EditorCaption": ""
             }
           ]
         },

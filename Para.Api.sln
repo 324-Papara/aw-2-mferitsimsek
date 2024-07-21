@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Para.Schema", "Para.Schema\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Para.Data", "Para.Data\Para.Data.csproj", "{08994B8D-655B-4BE9-87ED-A4EFDB41A217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para.Business", "Para.Business\Para.Business.csproj", "{C9AC6437-211F-4872-B11F-449C299ED79D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Para.Business", "Para.Business\Para.Business.csproj", "{C9AC6437-211F-4872-B11F-449C299ED79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para.Core", "Para.Core\Para.Core.csproj", "{0124036E-9391-4900-A2E5-8199229564FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Para.Core", "Para.Core\Para.Core.csproj", "{0124036E-9391-4900-A2E5-8199229564FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{7CCF5AD5-40B6-4C6D-88B7-3B3DA6478A3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
